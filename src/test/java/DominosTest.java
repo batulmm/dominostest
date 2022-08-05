@@ -33,7 +33,7 @@ public class DominosTest {
     driver.findElement(By.partialLinkText("Order Online")).click();
     driver.findElement(By.id("Carryout")).click();
     driver.findElement(By.xpath("//div[2]/input")).click();
-    driver.findElement(By.xpath("//div[2]/input")).click();-
+    driver.findElement(By.xpath("//div[2]/input")).click();
     //ERROR: Caught exception [ERROR: Unsupported command [doubleClick | xpath=//div[2]/input | ]]
     driver.findElement(By.xpath("//div[2]/input")).clear();
     driver.findElement(By.xpath("//div[2]/input")).sendKeys("60148");
